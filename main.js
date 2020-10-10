@@ -1,3 +1,5 @@
+// DATE
+
 let today = new Date(); 
 
 let month = new Array();
@@ -20,6 +22,8 @@ let date = today.getDate() + " " + month[m] + ", " + today.getFullYear();
 
 document.getElementsByClassName('date')[0].textContent = date;
 
+
+// PUT NUMBERS TO INPUT
 document.getElementById('main-unit').addEventListener('keyup', () => {
     let m = document.querySelector('.main-unit-options');
     let s = document.querySelector('.second-unit-options');
